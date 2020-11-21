@@ -45,5 +45,8 @@
   </languages>
   <subsystems>Subsystem.Расш1_Тестирование</subsystems>
   <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <catalogs>Catalog._ДемоНоменклатура</catalogs>
+  <documents>Document._ДемоРеализацияТоваров</documents>
   <dataProcessors>DataProcessor.Расш1_СозданиеПакетаДокументов</dataProcessors>
+  <informationRegisters>InformationRegister.Расш1_ДанныеЧеков</informationRegisters>
 </mdclass:Configuration>

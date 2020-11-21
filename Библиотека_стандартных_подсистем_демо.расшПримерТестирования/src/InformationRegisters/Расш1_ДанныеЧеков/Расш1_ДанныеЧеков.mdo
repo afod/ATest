@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54f0d807-0077-41a5-83a0-b9f766ab7612">
+  <producedTypes>
+    <selectionType typeId="49b38b23-806b-43e5-9b60-d235d91f4829" valueTypeId="940db7a4-05f2-4f0e-a1db-246db2cb3242"/>
+    <listType typeId="faa5a47e-b1ae-4454-9e9e-f08213083171" valueTypeId="4ccb5ba9-0bae-4f92-8620-d5ac54f9f813"/>
+    <managerType typeId="2cd55c16-db21-49b9-8348-dcac12ba4a46" valueTypeId="b0e3d158-da98-49ea-94e7-7135bee79454"/>
+    <recordSetType typeId="1df10dfb-4984-4085-9264-e5d2bb231e62" valueTypeId="ea2c3ec2-3d46-4f0d-8a1e-7edf82fa63ef"/>
+    <recordKeyType typeId="e23ef63c-7493-40e6-95fd-d0ae18cbec27" valueTypeId="6824c2c0-578f-4ddf-afaf-26cd68ea0954"/>
+    <recordType typeId="44248e5b-f166-4cf0-a942-e3ff569da303" valueTypeId="4e416ed6-985a-4c4c-ab1d-bda1bc6c3178"/>
+    <recordManagerType typeId="6d32c649-f232-490f-b334-5d25322d848f" valueTypeId="f6b493a0-bbb6-4e5d-9778-d35294f37221"/>
+  </producedTypes>
+  <name>Расш1_ДанныеЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные чеков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c766963e-9b9c-4b99-a673-383e71756590">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <attributes uuid="6f34dcad-ee17-4280-a774-2aa966429710">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <dimensions uuid="1d73a476-e24f-4c25-95d1-22de5687e808">
+    <name>НомерЧека</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер чека</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="05289aac-85b2-40bc-bc02-f2ec541f773a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._ДемоНоменклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

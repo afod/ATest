@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="43263380-5101-4ec4-a8a9-95bbcaae11d6" extendedConfigurationObject="c89ef88a-05d7-4e90-afa9-589326cc8a0e">
+  <producedTypes>
+    <objectType typeId="886307cc-7c8c-4fb9-aa35-c32bdb1e92e0" valueTypeId="05f05102-ba59-44a0-8542-a14fa38c39bb"/>
+    <refType typeId="a8334ab6-fdc4-4597-b609-867ca09d4238" valueTypeId="9fa8cb09-4822-4914-b347-7a44a3e3cd80"/>
+    <selectionType typeId="60ac6f04-5535-4e14-8ebc-0175b91783ac" valueTypeId="a2651226-08c3-440e-b13a-707080079e97"/>
+    <listType typeId="8ec7162f-2752-4195-bd8b-20ddb228772a" valueTypeId="c1226408-1b79-439d-bb50-134928d42f18"/>
+    <managerType typeId="21af8af4-ce78-46b5-af07-8cd57625081e" valueTypeId="e68b4953-a4a0-45e9-b157-4051bea0252f"/>
+  </producedTypes>
+  <name>_ДемоРеализацияТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="5c8c105f-f00a-4b62-b28a-bfec6cf1d0d0">
+    <name>Расш1_СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
