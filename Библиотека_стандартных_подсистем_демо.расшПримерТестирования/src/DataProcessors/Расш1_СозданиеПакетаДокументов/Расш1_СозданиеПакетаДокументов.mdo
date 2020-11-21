@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="676abffb-325c-4b47-b41e-bc363389afd1">
+  <producedTypes>
+    <objectType typeId="d57120c0-ed47-4041-949b-d0c0f7275fe7" valueTypeId="3a9973e1-a804-4879-ab16-34c925a38668"/>
+    <managerType typeId="519011e0-b469-4f53-abe7-9ca99e701ad7" valueTypeId="5fceb791-eb14-4847-b0be-102ecac96ddc"/>
+  </producedTypes>
+  <name>Расш1_СозданиеПакетаДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание пакета документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <commands uuid="fb260c1d-a3cd-41e5-bf6d-704597a0eb4d">
+    <name>СоздатьДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать пакет документов</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

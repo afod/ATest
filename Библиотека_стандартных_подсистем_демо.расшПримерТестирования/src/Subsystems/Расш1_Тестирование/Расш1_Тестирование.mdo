@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaa4e151-2ef1-4a13-b412-aa9cb56671ed">
+  <name>Расш1_Тестирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>А-Тестирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.Расш1_СозданиеПакетаДокументов</content>
+</mdclass:Subsystem>
